@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/python
 import time
 import datetime
 import os
@@ -7,7 +8,7 @@ import sys
 
 
 os.system("neofetch")
-print('\033[1m' + '\033[91m'+'     <<<   CREATED BY TECHNICAL B9T   >>>')
+print('\033[1m' + '\033[91m'+'     <<<   CREATED BY Alienkrishn   >>>')
 def wish():
   h=int(datetime.datetime.now().hour)
   if h<12:
