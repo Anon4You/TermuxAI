@@ -14,10 +14,10 @@ print("\033[95m You said: ",str(inp))
 
 def system():
      if inp == "":
-         subprocess.call(["termux-tts-speak","please tell something sir"])
+         subprocess.call(["termux-tts-speak","please say something sir"])
 
      elif "hello" in inp:
-         subprocess.call(["termux-tts-speak","hallow sir "])
+         subprocess.call(["termux-tts-speak","Hello sir "])
          
      elif "close" in inp:
          subprocess.call(["termux-tts-speak","ok sir wait a minute"])
@@ -60,7 +60,7 @@ def system():
          subprocess.call(["termux-tts-speak","i am always free for you"])
      
      elif "name" in inp:
-         subprocess.call(["termux-tts-speak","you can call me termux "])
+         subprocess.call(["termux-tts-speak","you can call me Jarvis "])
      
      
      elif "who made you" in inp:
@@ -68,7 +68,7 @@ def system():
      elif "video" in inp:
          os.system("termux-open https://www.google.com/search?q=video")     
      else:
-       subprocess.call(["termux-tts-speak","I am not cooded for that"])
+       subprocess.call(["termux-tts-speak","I am not coded for that"])
 
 system()
 
